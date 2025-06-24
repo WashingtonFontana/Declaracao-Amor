@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: #ead8d6;
+    color: #070707;
+    font-size: 20px;
+    font-family: "Orbitron", sans-serif;
+    overflow:scroll;     
+}
+
+header {
+    position: relative;
+    width: 90vw;
+    top: 0;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 3;
+}
+
+.logo {
+    font-family: "Orbitron", sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    color: #1c1d1d;
+    text-shadow: 0 0 10px rgba(0, 247, 255, 0.5);
+    position: relative;
+    left: 45%;
+    right: 50%;
+}
+
+.foto-1 img {
+    position: relative;
+    left: 60%;
+    right: 70%;
+    box-shadow: inset;
+    height: 900px;
+    border-radius: 10%;    
+    filter: drop-shadow(0 0 30px rgba(0, 247, 255, 0.3))
+
+}
+
+.foto-2 img {
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    right: 40px;
+    height: 900px;
+    border-radius: 10%;
+    align-items: right;
+    filter: drop-shadow(0 0 30px rgba(0, 247, 255, 0.3));
+}
+
+main {
+    padding: 30px 0;
+    margin: 20px auto;
+    border-radius: 8px;    
+}
+
+
+
+main h2 {
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    position: relative;
+    padding: 10px;
+}
+
+
+.descricao {
+    padding: 10px;    
+    justify-content: var(50%);
+    font-family: "Edu VIC WA NT Hand Pre", cursive;   
+    color: #000; 
+    text-align: justify;
+}
+
+footer {
+    padding: 20px;    
+    margin-top: 20px;
+    color: #1c2481;    
+    background-color: #c8bebd;
+    text-align: center;
+}
+
+
